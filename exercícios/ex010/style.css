@@ -1,22 +1,30 @@
-@charset "UTF-8";
+body{
+    background-color: rgb(161, 161, 161);
+}
 
 div.quadrado{
-    background-color: lightslategray;
-    display: inline-block;
-    border: 1px solid black;
+    height: 200px;
+    border: 2px solid black;
+    display: block;
     border-radius: 10px;
-    width: 180px;
-    height: 180px;
+    margin: 10px;
+    
 }
 
 div#q1{
-    background-color: skyblue;
+    background-color: rgb(88, 40, 133);
 }
 
 div#q2{
-    background-image: linear-gradient(to bottom,  orange, yellow);
+    background-image: linear-gradient(to right, purple, rgb(69, 9, 210));
 }
 
 div#q3{
-    background-image: url("imagens/pattern001.png");
+    background-image: url(imagens/pattern001.png);
+}
+
+div#q4{
+    background-image: url(imagens/sonic.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
