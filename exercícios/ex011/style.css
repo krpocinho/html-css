@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    line-height: 1.5em;
+    padding: 0px;
+    border: 0px;
+    font-size: 28px;
+}
+
+header{
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+header > p{
+    text-align: center;
+    margin: 0px;
+}
+
+div.principal{
+    background-color: white;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 28px;
+}
+
+div#p1{
+    background-color: white;
+    height: 380px;
+}
+
+div#p2{
+    background-color: white;
+    height: 666px;
+}
+
+div#p3{
+    background-color: white;
+    height: 670px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    text-align: center;
+}
+
+
+aside.imagem{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+div.imagemm{
+    height: 440px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+div#i3{
+    background-image: url(background001.jpg);
+}
+
+div#i4{
+    background-image: url(background002.jpg);
+}
