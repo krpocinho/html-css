@@ -12,18 +12,24 @@ td, th{
 table{
     width: 400px;
     border-collapse: collapse;
+    position: relative;
 }
 
 tfoot, thead{
-    background-color: rgb(82, 79, 79);
+    background-color: #424141;
 }
 
 caption{
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(196, 196, 196);
     font-weight: bold;
     font-size: 2em;
 }
 
 tbody > tr:nth-child(2n){
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(151, 151, 151);
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: #424141;
 }
