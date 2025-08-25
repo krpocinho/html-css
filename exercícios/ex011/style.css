@@ -23,3 +23,7 @@ caption{
     font-weight: bold;
     font-size: 2em;
 }
+
+tbody > tr:nth-child(2n){
+    background-color: rgb(129, 129, 129);
+}
